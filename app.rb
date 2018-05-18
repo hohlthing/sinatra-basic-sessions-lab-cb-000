@@ -7,7 +7,7 @@ class App < Sinatra::Base
     set :session_secret, 'goingbacktocali'
   end
 
-  get '/' go
+  get '/' do
     erb :index
   end
 
